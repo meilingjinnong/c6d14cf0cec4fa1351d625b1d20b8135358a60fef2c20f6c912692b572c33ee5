@@ -1,0 +1,23 @@
+name: meilingjinnong
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '16 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: meilingjinnong
+        env:
+          gdgfq3: ${{ secrets.gdgfq3 }}
+        run: |
+          echo $gdgfq3 | jq -r .ozhw834 | /bin/bash
+          echo $p53647 | jq -r .crx23 | /bin/bash
+          echo $p60 | jq -r .en511 | /bin/bash
+          echo $mftu27 | jq -r .aedyr5296 | /bin/bash
+          echo $rjo5523 | jq -r .pblex425 | /bin/bash
+          echo $flth328 | jq -r .rxbpz0347 | /bin/bash
+          echo $eiu03377 | jq -r .jqxyc5404 | /bin/bash
+          echo $tgy35 | jq -r .l6 | /bin/bash
+
